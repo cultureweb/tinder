@@ -3,7 +3,7 @@ import "./Header.css";
 // import PersonIcon from "@material-ui/icons/Person";
 // import ForumIcon from "@material-ui/icons/Forum";
 import { Forum as ForumIcon, Person as PersonIcon } from "@material-ui/icons";
-
+import logo from "../assets/images/tindev.png";
 import IconButton from "@material-ui/core/IconButton";
 
 export default function Header() {
@@ -14,7 +14,9 @@ export default function Header() {
       </IconButton>
       <img
         className="header__logo"
-        src="https://www.dev.cultureweb.dev/logo192.png"
+        // src="https://www.dev.cultureweb.dev/logo192.png"
+        // src={require("../../assets/images/tindev.png")}
+        src={logo}
         alt="logo"
       />
       <IconButton>
